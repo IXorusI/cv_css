@@ -4,10 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Список</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styletwo.css">
 </head>
 <body>
-    <h1>123124faf</h1>
-    <p>Ghbdtn rfr ltkf</p>
+    <div class="container">
+    <h2>Примерно повторим, но добавим CSS</h2>
+
+
+
+    <hr>
+    <h3>TEST, числа</h3>
+    <h3>Можно сделать табличку а-ля условие-задача-решение</h3>
+    <table class="table-math">
+         <tr class="head-table">
+            <td>
+                <label for="">Тут вбиваем условие</label>
+            </td>
+            <td>
+                <label for="">Тут выбираем действие</label>
+            </td>
+            <td>
+                <label for="">Тут получаем ответ</label>
+            </td>
+        </tr>
+        <tr class="body-table">
+            <td>
+                <label for="">X</label>
+                <input id="idx" type="text" placeholder="Введите значение Х.."> <br>
+                <label for="">Y</label>
+                <input id="idy" type="number" placeholder="Введите значение Y..">
+            </td>
+            <td>
+                <input type="radio" name="testr" value="1">
+                <label for="">X + Y</label> <br>
+                <input type="radio" name="testr" value="2">
+                <label for="">X - Y</label> <br>
+                <input type="radio" name="testr" value="3">
+                <label for="">X * Y</label>
+            </td>
+            <td>
+                <input type="button" id="butt" value="Расчёт"> <br>
+                <div id="str"></div>
+            </td>
+
+        </tr>
+    </table>
+    <hr>
+
+    <p>Выравнивание div с border (внутрь)</p>
+    <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="card">
+        <h2>Какие есть инпуты?</h2>
+        <table class="table"> 
+            <tr>
+                <td>
+                    <label for="">text</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label for="">button</label>
+                    <input type="button" value="тык">
+                </td>
+                <td>
+                    <label for="">color</label>
+                    <input type="color">
+                </td>
+                <td>
+                    <label for="">date</label>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">datetime</label>
+                    <input type="datetime">
+                </td>
+                <td>
+                    <label for="">datetime-local</label>
+                    <input type="datetime-local">
+                </td>
+                <td> 
+                    <label for="">email</label>
+                    <input type="email">
+                </td>
+                <td>
+                    <label for="">file</label>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">hidden</label>
+                    <input type="hidden">
+                </td>
+                <td>
+                    <label for="">image</label>
+                    <input type="image">
+                </td>
+                <td>
+                    <label for="">month</label>
+                    <input type="month">
+                </td>
+                <td>
+                    <label for="">number</label>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="">password</label>
+                    <input type="password">
+                </td>
+                <td>
+                    <label for="">radio</label>
+                    <input type="radio">
+                </td>
+                <td>
+                    <label for="">range</label>
+                    <input type="range">
+                </td>
+                <td>
+                    <label for="">reset</label>
+                    <input type="reset">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">search</label>
+                    <input type="search">
+                </td>
+                <td>
+                    <label for="">submit</label>
+                    <input type="submit">
+                </td>
+                <td> 
+                    <label for="">tel</label>
+                    <input type="tel">
+                </td>
+                <td>
+                    <label for="">text</label>
+                    <input type="text">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="">time</label>
+                    <input type="time">
+                </td>
+                <td>
+                    <label for="">url</label>
+                    <input type="url">
+                </td>
+                <td>
+                    <label for="">week</label>
+                    <input type="week">
+                </td>
+                <td>
+                    <label for="">button</label>
+                    <input type="button">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+<script src="app.js"></script>
+
+</div>
 </body>
 </html>

@@ -1,0 +1,75 @@
+
+
+body {
+    background-color: #f1f1f1;
+    color: 0f131e;
+}
+
+
+.box-model > div {
+    float: left;
+    background-color: black;
+    width: 25%;
+    height: 200px;
+    border: 5px solid cornflowerblue;
+    box-sizing: border-box;
+}
+
+.container h2,
+.container h3 {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+}
+
+.table input{
+    width: 70%;
+    margin: 10px;
+}
+
+.table td {
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.table label {
+    display: block;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.table-math {    
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    background: #9a9ca0;
+    border: 2px solid rgb(42, 8, 56);
+    border-radius: 10px;
+}
+
+.head-table label {
+    text-align: center;
+    /* color: red; */
+    padding: 5px;
+    display: block;
+}
+
+.body-table {
+    text-align: center;
+}
+
+.body-table label {
+    padding: 5px;
+    /* color: red; */
+}
+
+.body-table input {
+    padding: 5px 10px;
+    margin: 3px;    
+}
